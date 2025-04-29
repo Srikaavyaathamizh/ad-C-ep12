@@ -1,0 +1,104 @@
+## O 26: C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST. Aim: To write a C program to display stack elements using linked list.
+
+Algorithm:
+
+    Define a structure Node with two members: data to store the integer value and next to point to the next node in the linked list.
+    Declare a global variable head representing the starting node of the linked list.
+    Define a function display to print the elements of the linked list.
+    Declare a pointer p and initialize it with the head of the linked list.
+    Use a while loop to traverse the linked list:
+    Print the data of the current node.
+    Move to the next node using the next pointer.
+
+Program:
+
+//type your code here
+
+Output:
+
+//paste your output here
+
+Result: Thus, the program to display stack elements using linked list is verified successfully.
+
+EXP.NO 27: C PROGRAM TO POP AN ELEMENT FROM THE GIVEN STACK USING LINKED LIST. Aim: To write a C program to pop an element from the given stack using liked list.
+
+Algorithm:
+
+    Check for Empty Stack
+    If head is equal to NULL, Print "Stack is empty."
+    Else Proceed to the next step.
+    Set head to point to the next node in the stack.
+
+Program:
+
+//type your code here
+
+Output:
+
+//paste your output here
+
+Result: Thus, the program to pop an element from the given stack using liked list is verified successfully.
+
+EXP NO:28 C PROGRAM TO DISPLAY QUEUE ELEMENTS USING LINKED LIST. Aim: To write a C program to display queue elements using linked list. Algorithm:
+
+    Check if Queue is Empty
+    Display Queue Elements
+    Print the data of the current node pointed to by front
+    Update front to point to the next node.
+    End the display function.
+
+Program:
+
+//type your code here
+
+Output:
+
+//paste your output here
+
+Result: Thus, the program to display queue elements using linked list is verified successfully.
+
+EXP NO:29 C PROGRAM TO INSERT ELEMENTS IN QUEUE USING LINKED LIST
+
+Aim: To write a C program to insert elements in queue using linked list
+
+Algorithm:
+
+    Allocate Memory for New Node
+    Set Data and Next Pointer
+    Check if Queue is Empty
+    Set both front and rear to point to the new node p.
+    Set the next pointer of the current rear to point to the new node p.
+    End of Enqueue Operation
+
+Program:
+
+//type your code here
+
+Output:
+
+//paste your output here
+
+Result: Thus, the program to insert elements in queue using linked list is verified successfully.
+
+EXP NO:30 C FUNCTION TO FIND THE PEEK OF QUEUE USING LINKED LIST.
+
+Aim:
+
+The aim of this function is to retrieve the "peek" (the front element) of a queue implemented using a linked list
+
+Algorithm:
+
+    Check if the queue is empty: o If the queue is empty (i.e., the front pointer is NULL), return an error or a message indicating that the queue is empty.
+    Access the front element: o If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
+
+Program:
+
+//type your code here
+
+Output:
+
+//paste your output here
+
+Result:
+
+Thus, the program to retrieve the "peek" (the front element) of a queue implemented using a linked list is verified successfully.
