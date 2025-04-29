@@ -1,7 +1,9 @@
-## EXP NO 26: C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST. Aim: To write a C program to display stack elements using linked list.
+# EXP NO 26: C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST.
+## Aim:
+To write a C program to display stack elements using linked list.
 
 
-# Algorithm:
+## Algorithm:
 
 1.<br>Define a structure Node with two members: data to store the integer value and next to point to the next node in the linked list.
 2. Declare a global variable head representing the starting node of the linked list.
@@ -37,7 +39,10 @@ printf("%d\n",p->data); p=p->next;
 
 Thus, the program to display stack elements using linked list is verified successfully.
 
-# EXP.NO :6B C PROGRAM TO POP AN ELEMENT FROM THE GIVEN STACK USING LINKED LIST. Aim: To write a C program to pop an element from the given stack using liked list.
+# EXP.NO :6B C PROGRAM TO POP AN ELEMENT FROM THE GIVEN STACK USING LINKED LIST
+
+## Aim: 
+To write a C program to pop an element from the given stack using liked list.
 
 
 ## Algorithm:
@@ -70,9 +75,12 @@ head=head->next;
 
 ![image](https://github.com/user-attachments/assets/c1acab9d-8258-4e2c-90f2-ce9fb7aee7dc)
 
-Result: Thus, the program to pop an element from the given stack using liked list is verified successfully.
+## Result:
+Thus, the program to pop an element from the given stack using liked list is verified successfully.
 
-# EXP NO:6C C PROGRAM TO DISPLAY QUEUE ELEMENTS USING LINKED LIST. Aim: To write a C program to display queue elements using linked list. Algorithm:
+# EXP NO:6C C PROGRAM TO DISPLAY QUEUE ELEMENTS USING LINKED LIST.
+
+## Aim: To write a C program to display queue elements using linked list. Algorithm:
 
 1.<br>Check if Queue is Empty
 2.Display Queue Elements
