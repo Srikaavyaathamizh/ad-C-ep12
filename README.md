@@ -1,14 +1,16 @@
 ## EXP NO 26: C PROGRAM TO DISPLAY STACK ELEMENTS USING LINKED LIST. Aim: To write a C program to display stack elements using linked list.
 
+
 # Algorithm:
 
-    Define a structure Node with two members: data to store the integer value and next to point to the next node in the linked list.
-    Declare a global variable head representing the starting node of the linked list.
-    Define a function display to print the elements of the linked list.
-    Declare a pointer p and initialize it with the head of the linked list.
-    Use a while loop to traverse the linked list:
-    Print the data of the current node.
-    Move to the next node using the next pointer.
+1.<br>Define a structure Node with two members: data to store the integer value and next to point to the next node in the linked list.
+2. Declare a global variable head representing the starting node of the linked list.
+3. Define a function display to print the elements of the linked list.
+4. Declare a pointer p and initialize it with the head of the linked list.
+5. Use a while loop to traverse the linked list:
+6. Print the data of the current node.
+7. Move to the next node using the next pointer.
+    <br>
 
 ## Program:
 
@@ -37,12 +39,13 @@ Thus, the program to display stack elements using linked list is verified succes
 
 # EXP.NO :6B C PROGRAM TO POP AN ELEMENT FROM THE GIVEN STACK USING LINKED LIST. Aim: To write a C program to pop an element from the given stack using liked list.
 
+
 ## Algorithm:
 
-    Check for Empty Stack
-    If head is equal to NULL, Print "Stack is empty."
-    Else Proceed to the next step.
-    Set head to point to the next node in the stack.
+1.<br>Check for Empty Stack
+2.If head is equal to NULL, Print "Stack is empty."
+3.Else Proceed to the next step.
+4.Set head to point to the next node in the stack.
 
 ## Program:
 
@@ -71,11 +74,11 @@ Result: Thus, the program to pop an element from the given stack using liked lis
 
 # EXP NO:6C C PROGRAM TO DISPLAY QUEUE ELEMENTS USING LINKED LIST. Aim: To write a C program to display queue elements using linked list. Algorithm:
 
-    Check if Queue is Empty
-    Display Queue Elements
-    Print the data of the current node pointed to by front
-    Update front to point to the next node.
-    End the display function.
+1.<br>Check if Queue is Empty
+2.Display Queue Elements
+3.Print the data of the current node pointed to by front
+4.Update front to point to the next node.
+5.End the display function.
 
 ## Program:
 
@@ -112,12 +115,12 @@ To write a C program to insert elements in queue using linked list
 
 ## Algorithm:
 
-    Allocate Memory for New Node
-    Set Data and Next Pointer
-    Check if Queue is Empty
-    Set both front and rear to point to the new node p.
-    Set the next pointer of the current rear to point to the new node p.
-    End of Enqueue Operation
+1.<br>Allocate Memory for New Node
+2.Set Data and Next Pointer
+3.Check if Queue is Empty
+4.Set both front and rear to point to the new node p.
+5.Set the next pointer of the current rear to point to the new node p.
+6.End of Enqueue Operation
 
 ## Program:
 
@@ -153,8 +156,8 @@ The aim of this function is to retrieve the "peek" (the front element) of a queu
 
 ## Algorithm:
 
-    Check if the queue is empty: o If the queue is empty (i.e., the front pointer is NULL), return an error or a message indicating that the queue is empty.
-    Access the front element: o If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
+1.<br>Check if the queue is empty: o If the queue is empty (i.e., the front pointer is NULL), return an error or a message indicating that the queue is empty.
+2.Access the front element: o If the queue is not empty, return the data stored in the front node of the linked list (i.e., the element at the head of the queue).
 
 ## Program:
 ```
